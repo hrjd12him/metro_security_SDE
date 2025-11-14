@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 class OktaClient:
     def __init__(self):
-        self.base_url = settings.OKTA_BASE_URL.rstrip("/")
+        self.base_url = str(settings.OKTA_BASE_URL).rstrip("/")
         self.session = requests.Session()
         self.session.headers.update({
             "Authorization": f"SSWS {settings.OKTA_API_TOKEN}",
