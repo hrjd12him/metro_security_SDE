@@ -1,0 +1,33 @@
+2025-11-14 14:14:50,705 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-14 14:14:50,705 | INFO | apscheduler.scheduler | Added job "run_full_scan" to job store "default"
+2025-11-14 14:14:50,705 | INFO | apscheduler.scheduler | Scheduler started
+2025-11-14 14:14:50,706 | INFO | app.scheduler | Scheduler started with interval 5 minutes
+2025-11-14 14:17:42,446 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2025-11-14 14:24:14,157 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-14 14:24:14,158 | INFO | apscheduler.scheduler | Added job "run_full_scan" to job store "default"
+2025-11-14 14:24:14,158 | INFO | apscheduler.scheduler | Scheduler started
+2025-11-14 14:24:14,159 | INFO | app.scheduler | Scheduler started with interval 5 minutes
+2025-11-14 14:25:08,534 | ERROR | app.okta_client | Error fetching system logs: 401 {"errorCode":"E0000011","errorSummary":"Invalid token provided","errorLink":"E0000011","errorId":"oaeY0Gog1aZTPOzW9cCkdrsiQ","errorCauses":[]}
+2025-11-14 14:25:08,535 | INFO | app.okta_client | Fetched 0 log events from Okta
+2025-11-14 14:25:08,535 | INFO | app.scheduler | Full scan produced 0 alerts
+2025-11-14 14:30:17,162 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-14 14:30:17,162 | INFO | apscheduler.scheduler | Added job "run_full_scan" to job store "default"
+2025-11-14 14:30:17,162 | INFO | apscheduler.scheduler | Scheduler started
+2025-11-14 14:30:17,163 | INFO | app.scheduler | Scheduler started with interval 5 minutes
+2025-11-14 14:32:33,600 | ERROR | app.okta_client | Failed to suspend user 00uabc123XYZ: 429 {"status":429,"message":"API rate limit exceeded"}
+
+2025-11-14 14:35:17,163 | INFO | apscheduler.executors.default | Running job "run_full_scan (trigger: interval[0:05:00], next run at: 2025-11-14 14:40:17 IST)" (scheduled at 2025-11-14 14:35:17.162437+05:30)
+2025-11-14 14:35:18,780 | ERROR | app.okta_client | Error fetching system logs: 401 {"errorCode":"E0000011","errorSummary":"Invalid token provided","errorLink":"E0000011","errorId":"oae4v5-9k0uSjmyAkyiubvCqA","errorCauses":[]}
+2025-11-14 14:35:18,781 | INFO | app.okta_client | Fetched 0 log events from Okta
+2025-11-14 14:35:18,781 | INFO | app.scheduler | Full scan produced 0 alerts
+2025-11-14 14:35:18,781 | INFO | apscheduler.executors.default | Job "run_full_scan (trigger: interval[0:05:00], next run at: 2025-11-14 14:40:17 IST)" executed successfully
+2025-11-17 19:11:59,659 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-17 19:11:59,659 | INFO | apscheduler.scheduler | Added job "run_full_scan" to job store "default"
+2025-11-17 19:11:59,659 | INFO | apscheduler.scheduler | Scheduler started
+2025-11-17 19:11:59,660 | INFO | app.scheduler | Scheduler started with interval 5 minutes
+2025-11-17 19:16:11,777 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2025-11-17 19:16:12,785 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-17 19:16:12,786 | INFO | apscheduler.scheduler | Added job "run_full_scan" to job store "default"
+2025-11-17 19:16:12,786 | INFO | apscheduler.scheduler | Scheduler started
+2025-11-17 19:16:12,786 | INFO | app.scheduler | Scheduler started with interval 5 minutes
+2025-11-17 19:16:15,394 | INFO | apscheduler.scheduler | Scheduler has been shut down
